@@ -1,0 +1,92 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        /* GLOBAL: BASIC COLOR VARS */
+        --color-primary: #fff;
+        --color-primary-dark: #1F2937;
+
+        --color-secondary: #e2e8f0;
+        --color-secondary-dark: #0F172A;
+
+        --color-tertiary: #4f46e5;
+        --color-tertiary-dark: #4f46e5;
+
+        --color-background: #e5e7eb;
+        --color-background-dark: #374151;
+
+        --color-text-base: #1E293B;
+        --color-text-base-dark: #E2E8F0;
+
+        --color-text-muted: #374151;
+        --color-text-muted-dark: #64748B;
+
+        --color-text-inverted: #c8d1ba;
+        --color-text-inverted-dark: #FFEDD5;
+
+
+        --color-success: #62db68;
+        --color-info: #0ea5e9;
+        --color-action: #0369A1;
+        --color-warning: #ffc107;
+        --color-danger: #ef4444;
+        --color-error: #ef4444;
+
+        --color-active: #41b0ec;
+        --color-hover: #d97706;
+        --color-hover-item: #fdba74;
+        --color-focus: #A3E635;
+
+        --color-light: #ffffff;
+        --color-dark: #1e2936;
+    }
+}
+
+@screen lg {
+
+    .is-show-sidebar {
+        width: calc(100% - 250px);
+    }
+}
+
+.is-rail-sidebar {
+    width: calc(100% - 60px);
+}
+
+/* .sidebar-height {
+    height: calc(100vh - 200px);
+} */
+html {
+    scroll-behavior: smooth;
+}
+
+/* body {
+    margin: 0 !important;
+    padding: 0 !important;
+} */
+/* .hero-height {
+    height: calc(100vh - 8rem);
+}
+
+@screen sm {
+    .hero-height {
+        @apply min-h-screen;
+    }
+} */
+
+
+/* .ProseMirror {
+    @apply  min-w-full h-full text-lg font-medium bg-primary dark:bg-primary-dark border border-blue-500 rounded-xl m-0 p-3;
+
+}
+
+.ProseMirror.img {
+    @apply w-full h-auto;
+
+}
+
+img.ProseMirror-selectednode {
+  @apply outline outline-indigo-500;
+} */
